@@ -1,0 +1,169 @@
+{
+  "frames": {
+    "background": {
+      "trimmed": true,
+      "rotated": false,
+      "frame": {
+        "x": 2,
+        "y": 224,
+        "w": 1024,
+        "h": 768
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 1024,
+        "h": 768
+      },
+      "sourceSize": {
+        "w": 1024,
+        "h": 768
+      }
+    },
+    "game_button_start_down": {
+      "trimmed": true,
+      "rotated": false,
+      "frame": {
+        "x": 817,
+        "y": 108,
+        "w": 190,
+        "h": 53
+      },
+      "spriteSourceSize": {
+        "x": 12,
+        "y": 3,
+        "w": 190,
+        "h": 53
+      },
+      "sourceSize": {
+        "w": 212,
+        "h": 59
+      }
+    },
+    "game_button_start_norm": {
+      "trimmed": true,
+      "rotated": false,
+      "frame": {
+        "x": 2,
+        "y": 2,
+        "w": 212,
+        "h": 59
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 212,
+        "h": 59
+      },
+      "sourceSize": {
+        "w": 212,
+        "h": 59
+      }
+    },
+    "game_button_start_over": {
+      "trimmed": true,
+      "rotated": false,
+      "frame": {
+        "x": 817,
+        "y": 163,
+        "w": 212,
+        "h": 59
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 212,
+        "h": 59
+      },
+      "sourceSize": {
+        "w": 212,
+        "h": 59
+      }
+    },
+    "intro-dev-name": {
+      "trimmed": true,
+      "rotated": false,
+      "frame": {
+        "x": 371,
+        "y": 96,
+        "w": 341,
+        "h": 31
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 341,
+        "h": 31
+      },
+      "sourceSize": {
+        "w": 341,
+        "h": 31
+      }
+    },
+    "intro-gameplaycoder-norm": {
+      "trimmed": true,
+      "rotated": false,
+      "frame": {
+        "x": 2,
+        "y": 96,
+        "w": 367,
+        "h": 31
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 367,
+        "h": 31
+      },
+      "sourceSize": {
+        "w": 367,
+        "h": 31
+      }
+    },
+    "intro-gameplaycoder-over": {
+      "trimmed": true,
+      "rotated": false,
+      "frame": {
+        "x": 2,
+        "y": 63,
+        "w": 367,
+        "h": 31
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 367,
+        "h": 31
+      },
+      "sourceSize": {
+        "w": 367,
+        "h": 31
+      }
+    },
+    "thunderjack_label": {
+      "trimmed": true,
+      "rotated": false,
+      "frame": {
+        "x": 2,
+        "y": 129,
+        "w": 813,
+        "h": 93
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 813,
+        "h": 93
+      },
+      "sourceSize": {
+        "w": 818,
+        "h": 98
+      }
+    }
+  },
+  "meta": {
+    "app": "Phaser Editor",
+    "version": "1",
+    "image": "intro.png"
+  }
+}

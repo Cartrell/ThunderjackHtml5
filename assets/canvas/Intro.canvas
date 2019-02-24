@@ -1,0 +1,139 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "Intro",
+    "sceneWidth": 1024,
+    "sceneHeight": 768,
+    "generateOnSave": true,
+    "enableStepping": false,
+    "lang": "JAVA_SCRIPT",
+    "baseClass": "Phaser.State",
+    "backgroundColor": [
+      0,
+      0,
+      0
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true,
+    "create_after": "this._init();"
+  },
+  "stateSettings": {
+    "stageBackgroundColor": [
+      0,
+      0,
+      0
+    ],
+    "autoLoad": false,
+    "preloadSpriteId": "",
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "2b98bc6b-7198-48b2-8e63-92061f3a2945",
+    "info": {
+      "editorName": "Intro",
+      "setAll": [],
+      "children": [
+        {
+          "type": "atlas-sprite",
+          "id": "efcd9083-ac35-4c67-96e5-93f279422ad4",
+          "asset": "0",
+          "info": {
+            "editorName": "background",
+            "editorField": true
+          }
+        },
+        {
+          "type": "button",
+          "id": "20884e4d-f855-44e9-9881-6fddebf05ced",
+          "asset": "1",
+          "info": {
+            "editorName": "start_button",
+            "editorField": true,
+            "x": 406,
+            "y": 354.5000305175781,
+            "data": "",
+            "callback": "this._onStartButtonPressed",
+            "overFrame": "game_button_start_over",
+            "downFrame": "game_button_start_down",
+            "upFrame": "game_button_start_norm"
+          }
+        },
+        {
+          "type": "atlas-sprite",
+          "id": "f0c2f128-3adb-4f88-a77f-6594b4bb6f0d",
+          "asset": "2",
+          "info": {
+            "editorName": "thunderjack_label",
+            "x": 103,
+            "y": 123
+          }
+        },
+        {
+          "type": "atlas-sprite",
+          "id": "7b2744f8-9588-4940-9bac-0ea9e4b132a0",
+          "asset": "3",
+          "info": {
+            "editorName": "intro_dev_name",
+            "x": 640,
+            "y": 673
+          }
+        },
+        {
+          "type": "button",
+          "id": "35b5f775-adbf-4c90-ac50-5a4bf99b9a34",
+          "asset": "4",
+          "info": {
+            "editorName": "btnWebsite",
+            "editorField": true,
+            "x": 640,
+            "y": 723,
+            "callback": "this._onWebLinkPressed",
+            "overFrame": "intro-gameplaycoder-over",
+            "downFrame": "intro-gameplaycoder-over",
+            "upFrame": "intro-gameplaycoder-norm"
+          }
+        }
+      ]
+    }
+  },
+  "type": "STATE",
+  "asset-table": {
+    "0": {
+      "file": "WebContent/assets/pack.json",
+      "section": "intro",
+      "asset": "intro1",
+      "sprite": "background"
+    },
+    "1": {
+      "file": "WebContent/assets/pack.json",
+      "section": "intro",
+      "asset": "intro1",
+      "sprite": "game_button_start_norm"
+    },
+    "2": {
+      "file": "WebContent/assets/pack.json",
+      "section": "intro",
+      "asset": "intro1",
+      "sprite": "thunderjack_label"
+    },
+    "3": {
+      "file": "WebContent/assets/pack.json",
+      "section": "intro",
+      "asset": "intro1",
+      "sprite": "intro-dev-name"
+    },
+    "4": {
+      "file": "WebContent/assets/pack.json",
+      "section": "intro",
+      "asset": "intro1",
+      "sprite": "intro-gameplaycoder-norm"
+    }
+  },
+  "prefab-table": {}
+}

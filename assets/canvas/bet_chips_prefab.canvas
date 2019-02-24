@@ -1,0 +1,141 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "bet_chips_prefab",
+    "sceneWidth": 640,
+    "sceneHeight": 360,
+    "generateOnSave": true,
+    "enableStepping": false,
+    "lang": "JAVA_SCRIPT",
+    "baseClass": "Phaser.Group",
+    "backgroundColor": [
+      180,
+      180,
+      180
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true,
+    "create_after": "//user code\r\n\r\n//callback params:\r\n// key: string, bet chip key of the button that was clicked\r\nthis.buttonClickSignal = null;"
+  },
+  "stateSettings": {
+    "stageBackgroundColor": [
+      0,
+      0,
+      0
+    ],
+    "autoLoad": true,
+    "preloadSpriteId": "",
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "e8003802-7a4b-4292-a015-81dd527782ab",
+    "info": {
+      "editorName": "root",
+      "setAll": [],
+      "children": [{
+        "type": "group",
+        "id": "f391738a-a5ec-4bb5-b6ee-aa4adc3b615d",
+        "info": {
+          "editorName": "group",
+          "editorField": true,
+          "setAll": [],
+          "children": [
+            {
+              "type": "button",
+              "id": "77cabc3e-bf13-49b6-81aa-073e252fd0c6",
+              "asset": "0",
+              "info": {
+                "editorName": "chip_green",
+                "editorField": true,
+                "name": "green",
+                "callback": "this._onBetChipButtonPressed",
+                "overFrame": "chip_green",
+                "downFrame": "chip_green_down",
+                "upFrame": "chip_green"
+              }
+            },
+            {
+              "type": "button",
+              "id": "38bc45cc-1fc8-40de-8836-395e17178428",
+              "asset": "1",
+              "info": {
+                "editorName": "chip_purple",
+                "editorField": true,
+                "name": "purple",
+                "x": 80,
+                "callback": "this._onBetChipButtonPressed",
+                "overFrame": "chip_purple",
+                "downFrame": "chip_purple_down",
+                "upFrame": "chip_purple"
+              }
+            },
+            {
+              "type": "button",
+              "id": "f3e52b20-d96d-42a3-aad0-4538f3007cc0",
+              "asset": "2",
+              "info": {
+                "editorName": "chip_red",
+                "editorField": true,
+                "name": "red",
+                "x": 160,
+                "callback": "this._onBetChipButtonPressed",
+                "overFrame": "chip_red",
+                "downFrame": "chip_red_down",
+                "upFrame": "chip_red"
+              }
+            },
+            {
+              "type": "button",
+              "id": "9d9daf25-e41b-422c-a22f-0af053893597",
+              "asset": "3",
+              "info": {
+                "editorName": "chip_blue",
+                "editorField": true,
+                "name": "blue",
+                "x": 240,
+                "callback": "this._onBetChipButtonPressed",
+                "overFrame": "chip_blue",
+                "downFrame": "chip_blue_down",
+                "upFrame": "chip_blue"
+              }
+            }
+          ]
+        }
+      }]
+    }
+  },
+  "type": "GROUP",
+  "asset-table": {
+    "0": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preload",
+      "asset": "ui1",
+      "sprite": "chip_green"
+    },
+    "1": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preload",
+      "asset": "ui1",
+      "sprite": "chip_purple"
+    },
+    "2": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preload",
+      "asset": "ui1",
+      "sprite": "chip_red"
+    },
+    "3": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preload",
+      "asset": "ui1",
+      "sprite": "chip_blue"
+    }
+  },
+  "prefab-table": {}
+}

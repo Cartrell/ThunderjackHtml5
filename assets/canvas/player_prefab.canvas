@@ -1,0 +1,356 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "player_prefab",
+    "sceneWidth": 640,
+    "sceneHeight": 360,
+    "generateOnSave": true,
+    "enableStepping": false,
+    "lang": "JAVA_SCRIPT",
+    "baseClass": "Phaser.Group",
+    "backgroundColor": [
+      180,
+      180,
+      180
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true
+  },
+  "stateSettings": {
+    "stageBackgroundColor": [
+      0,
+      0,
+      0
+    ],
+    "autoLoad": true,
+    "preloadSpriteId": "",
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "e7bccde0-a922-4b74-9372-869123be112a",
+    "info": {
+      "editorName": "root",
+      "setAll": [],
+      "children": [{
+        "type": "group",
+        "id": "70040394-ca73-4b25-9d65-1e957b5d58b8",
+        "info": {
+          "editorName": "group",
+          "setAll": [],
+          "children": [
+            {
+              "type": "atlas-sprite",
+              "id": "9c154409-a501-44eb-bb77-d3633cf23db9",
+              "asset": "0",
+              "info": {
+                "editorName": "cardnode0",
+                "name": "m_cardNode0",
+                "x": 80,
+                "y": 50
+              }
+            },
+            {
+              "type": "atlas-sprite",
+              "id": "befe072b-d512-4432-afc1-9e65bc77d755",
+              "asset": "0",
+              "info": {
+                "editorName": "cardnode1",
+                "name": "m_cardNode1",
+                "x": 110,
+                "y": 50
+              }
+            },
+            {
+              "type": "atlas-sprite",
+              "id": "a0bca43f-2454-4bea-9a2a-cccc72c717b0",
+              "asset": "0",
+              "info": {
+                "editorName": "cardnode2",
+                "name": "m_cardNode2",
+                "x": 140,
+                "y": 50
+              }
+            },
+            {
+              "type": "atlas-sprite",
+              "id": "8235dc61-632d-48ad-8084-739b7a2819c4",
+              "asset": "0",
+              "info": {
+                "editorName": "cardnode3",
+                "name": "m_cardNode3",
+                "x": 170,
+                "y": 50
+              }
+            },
+            {
+              "type": "atlas-sprite",
+              "id": "7e095f7a-cc08-49f4-a05e-a928dc6c6deb",
+              "asset": "0",
+              "info": {
+                "editorName": "cardnode4",
+                "name": "m_cardNode4",
+                "x": 200,
+                "y": 50
+              }
+            },
+            {
+              "type": "atlas-sprite",
+              "id": "d649c6a7-86eb-4788-b0de-891d7dee7414",
+              "asset": "0",
+              "info": {
+                "editorName": "cardnode5",
+                "name": "m_cardNode5",
+                "x": 230,
+                "y": 50
+              }
+            },
+            {
+              "type": "atlas-sprite",
+              "id": "9ebcb676-cdf2-4f8f-8729-8d3733e36804",
+              "asset": "1",
+              "info": {
+                "editorName": "chip_main",
+                "name": "m_chipMainNode",
+                "y": 130
+              }
+            },
+            {
+              "type": "atlas-sprite",
+              "id": "b54b8a95-a97b-4d25-b591-84820b8e2d31",
+              "asset": "1",
+              "info": {
+                "editorName": "chip_offset",
+                "name": "m_chipOffsetNode",
+                "x": 10,
+                "y": 130
+              }
+            },
+            {
+              "type": "atlas-sprite",
+              "id": "bb9ed2d5-6958-4261-abfd-706f42053a71",
+              "asset": "2",
+              "info": {
+                "editorName": "result_label",
+                "editorField": true,
+                "x": 90,
+                "y": 170,
+                "animations": [
+                  {
+                    "name": "thunderjack",
+                    "frameRate": 45,
+                    "frames": [
+                      "result_label_thunderjack0001",
+                      "result_label_thunderjack0002",
+                      "result_label_thunderjack0003",
+                      "result_label_thunderjack0004",
+                      "result_label_thunderjack0005",
+                      "result_label_thunderjack0006",
+                      "result_label_thunderjack0007",
+                      "result_label_thunderjack0008",
+                      "result_label_thunderjack0009",
+                      "result_label_thunderjack0010",
+                      "result_label_thunderjack0011",
+                      "result_label_thunderjack0012",
+                      "result_label_thunderjack0013",
+                      "result_label_thunderjack0014",
+                      "result_label_thunderjack0015",
+                      "result_label_thunderjack0016",
+                      "result_label_thunderjack0017",
+                      "result_label_thunderjack0018"
+                    ]
+                  },
+                  {
+                    "name": "blackjack",
+                    "frameRate": 45,
+                    "frames": [
+                      "result_label_blackjack0001",
+                      "result_label_blackjack0002",
+                      "result_label_blackjack0003",
+                      "result_label_blackjack0004",
+                      "result_label_blackjack0005",
+                      "result_label_blackjack0006",
+                      "result_label_blackjack0007",
+                      "result_label_blackjack0008",
+                      "result_label_blackjack0009",
+                      "result_label_blackjack0010",
+                      "result_label_blackjack0011",
+                      "result_label_blackjack0012",
+                      "result_label_blackjack0013",
+                      "result_label_blackjack0014",
+                      "result_label_blackjack0015",
+                      "result_label_blackjack0016",
+                      "result_label_blackjack0017",
+                      "result_label_blackjack0018"
+                    ]
+                  },
+                  {
+                    "name": "blitz",
+                    "frameRate": 45,
+                    "frames": [
+                      "result_label_blitz0001",
+                      "result_label_blitz0002",
+                      "result_label_blitz0003",
+                      "result_label_blitz0004",
+                      "result_label_blitz0005",
+                      "result_label_blitz0006",
+                      "result_label_blitz0007",
+                      "result_label_blitz0008",
+                      "result_label_blitz0009",
+                      "result_label_blitz0010",
+                      "result_label_blitz0011",
+                      "result_label_blitz0012",
+                      "result_label_blitz0013",
+                      "result_label_blitz0014",
+                      "result_label_blitz0015",
+                      "result_label_blitz0016",
+                      "result_label_blitz0017",
+                      "result_label_blitz0018"
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "type": "atlas-sprite",
+              "id": "fc802945-31d9-42bf-bc29-c6d2674b06a9",
+              "asset": "3",
+              "info": {
+                "editorName": "turn_indicator_arrow",
+                "editorField": true,
+                "x": 130,
+                "animations": [{
+                  "name": "present",
+                  "frameRate": 5,
+                  "loop": true,
+                  "field": true,
+                  "frames": [
+                    "turn_indicator_arrow0",
+                    "turn_indicator_arrow1",
+                    "turn_indicator_arrow2",
+                    "turn_indicator_arrow3",
+                    "turn_indicator_arrow4",
+                    "turn_indicator_arrow5",
+                    "turn_indicator_arrow10"
+                  ]
+                }]
+              }
+            },
+            {
+              "type": "group",
+              "id": "8ef7cc05-ecf8-469c-ad31-8473ae6db104",
+              "info": {
+                "editorName": "winAmountGroup",
+                "editorField": true,
+                "x": -10,
+                "y": -490,
+                "setAll": [],
+                "children": [
+                  {
+                    "type": "atlas-sprite",
+                    "id": "6646ec69-d69a-4b62-b5f3-926c142acdab",
+                    "asset": "4",
+                    "info": {
+                      "editorName": "win_amount_box",
+                      "editorField": true,
+                      "x": 130,
+                      "y": 610,
+                      "fixedToCamera": true
+                    }
+                  },
+                  {
+                    "type": "atlas-sprite",
+                    "id": "8c7b2db4-d16a-465d-88ee-810937fc4b94",
+                    "asset": "5",
+                    "info": {
+                      "editorName": "winAmountTextNode",
+                      "editorField": true,
+                      "x": 130,
+                      "y": 610,
+                      "scale.x": 4.971540282362935,
+                      "scale.y": 1.625017223690842,
+                      "data": "{\r\n  text: \"\",\r\n  font: Thunderjack.DesignData.FONT_THE_BOLD_FONT_WIN,\r\n  align: \"center\",\r\n  valign: true\r\n}"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "atlas-sprite",
+              "id": "583f0710-4441-45e4-b2d9-0731c96c41b4",
+              "asset": "5",
+              "info": {
+                "editorName": "betTextNode",
+                "editorField": true,
+                "x": 7,
+                "y": 77,
+                "scale.x": 2,
+                "scale.y": 0.75,
+                "data": "{\r\n  text: \"\",\r\n  font: Thunderjack.DesignData.FONT_THE_BOLD_FONT,\r\n  align: \"left\"\r\n}"
+              }
+            },
+            {
+              "type": "atlas-sprite",
+              "id": "f978da1f-da7d-4055-a292-4146dd6a74cd",
+              "asset": "5",
+              "info": {
+                "editorName": "scoreTextNode",
+                "editorField": true,
+                "x": 60,
+                "y": 9,
+                "scale.x": 2.093750000022779,
+                "scale.y": 1.2499999988969968,
+                "data": "{\r\n  text: \"\",\r\n  font: Thunderjack.DesignData.FONT_THE_BOLD_FONT,\r\n  align: \"center\"\r\n}"
+              }
+            }
+          ]
+        }
+      }]
+    }
+  },
+  "type": "GROUP",
+  "asset-table": {
+    "0": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preload",
+      "asset": "cards",
+      "sprite": "card_as"
+    },
+    "1": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preload",
+      "asset": "ui1",
+      "sprite": "chip_green"
+    },
+    "2": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preload",
+      "asset": "ui1",
+      "sprite": "result_label_win"
+    },
+    "3": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preload",
+      "asset": "ui1",
+      "sprite": "turn_indicator_arrow0"
+    },
+    "4": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preload",
+      "asset": "ui1",
+      "sprite": "win-amount-box"
+    },
+    "5": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preload",
+      "asset": "ui1",
+      "sprite": "node"
+    }
+  },
+  "prefab-table": {}
+}

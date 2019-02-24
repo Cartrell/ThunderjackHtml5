@@ -1,0 +1,95 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "hand_button_1_prefab",
+    "sceneWidth": 640,
+    "sceneHeight": 360,
+    "generateOnSave": true,
+    "enableStepping": false,
+    "lang": "JAVA_SCRIPT",
+    "baseClass": "Phaser.Group",
+    "backgroundColor": [
+      180,
+      180,
+      180
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true,
+    "create_after": "//user code\r\nthis.clickCallback = null;"
+  },
+  "stateSettings": {
+    "stageBackgroundColor": [
+      0,
+      0,
+      0
+    ],
+    "autoLoad": true,
+    "preloadSpriteId": "",
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "d350474d-f5f8-4483-b126-34b609253422",
+    "info": {
+      "editorName": "root",
+      "setAll": [],
+      "children": [{
+        "type": "group",
+        "id": "0362e038-459d-4b4d-a1c0-fdf17a6208cb",
+        "info": {
+          "editorName": "group",
+          "setAll": [],
+          "children": [
+            {
+              "type": "button",
+              "id": "a159bf38-78e6-4a5a-a619-96779c6acc67",
+              "asset": "0",
+              "info": {
+                "editorName": "on",
+                "editorField": true,
+                "callback": "this._onButtonPressed",
+                "overFrame": "game_button_hand_1_on_over",
+                "downFrame": "game_button_hand_1_on_over",
+                "upFrame": "game_button_hand_1_on_norm"
+              }
+            },
+            {
+              "type": "button",
+              "id": "442097fb-0086-4ff2-a6cc-bfb050773289",
+              "asset": "1",
+              "info": {
+                "editorName": "off",
+                "editorField": true,
+                "callback": "this._onButtonPressed",
+                "overFrame": "game_button_hand_1_off_over",
+                "downFrame": "game_button_hand_1_off_over",
+                "upFrame": "game_button_hand_1_off_norm"
+              }
+            }
+          ]
+        }
+      }]
+    }
+  },
+  "type": "GROUP",
+  "asset-table": {
+    "0": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preload",
+      "asset": "ui1",
+      "sprite": "game_button_hand_1_on_norm"
+    },
+    "1": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preload",
+      "asset": "ui1",
+      "sprite": "game_button_hand_1_off_norm"
+    }
+  },
+  "prefab-table": {}
+}

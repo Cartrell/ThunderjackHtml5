@@ -1,0 +1,166 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "dealer_prefab",
+    "sceneWidth": 640,
+    "sceneHeight": 360,
+    "generateOnSave": true,
+    "enableStepping": false,
+    "lang": "JAVA_SCRIPT",
+    "baseClass": "Phaser.Group",
+    "backgroundColor": [
+      180,
+      180,
+      180
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true
+  },
+  "stateSettings": {
+    "stageBackgroundColor": [
+      0,
+      0,
+      0
+    ],
+    "autoLoad": true,
+    "preloadSpriteId": "",
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "e7bccde0-a922-4b74-9372-869123be112a",
+    "info": {
+      "editorName": "root",
+      "setAll": [],
+      "children": [{
+        "type": "group",
+        "id": "70040394-ca73-4b25-9d65-1e957b5d58b8",
+        "info": {
+          "editorName": "group",
+          "setAll": [],
+          "children": [
+            {
+              "type": "atlas-sprite",
+              "id": "45fc8639-97aa-4f16-882a-636f92eeed25",
+              "asset": "0",
+              "info": {
+                "editorName": "cardnode0",
+                "name": "m_cardNode0",
+                "x": 70,
+                "y": 50,
+                "renderable": false
+              }
+            },
+            {
+              "type": "atlas-sprite",
+              "id": "fc52d9f6-72f4-4a11-9c98-600a4ff120a8",
+              "asset": "0",
+              "info": {
+                "editorName": "cardnode1",
+                "name": "m_cardNode1",
+                "x": 100,
+                "y": 50
+              }
+            },
+            {
+              "type": "atlas-sprite",
+              "id": "68c88dec-0f7b-42cc-8ec4-f05fe336573b",
+              "asset": "0",
+              "info": {
+                "editorName": "cardnode2",
+                "name": "m_cardNode2",
+                "x": 130,
+                "y": 50
+              }
+            },
+            {
+              "type": "atlas-sprite",
+              "id": "6f053c47-c70a-4bd9-b9d8-8e148f4de173",
+              "asset": "0",
+              "info": {
+                "editorName": "cardnode3",
+                "name": "m_cardNode3",
+                "x": 160,
+                "y": 50
+              }
+            },
+            {
+              "type": "atlas-sprite",
+              "id": "4c4fd27d-dabd-407b-9efd-bf3a50ea36c0",
+              "asset": "0",
+              "info": {
+                "editorName": "cardnode4",
+                "name": "m_cardNode4",
+                "x": 190,
+                "y": 50
+              }
+            },
+            {
+              "type": "atlas-sprite",
+              "id": "3d547288-f9cc-46ef-86cf-cd004042ddc4",
+              "asset": "0",
+              "info": {
+                "editorName": "cardnode5",
+                "name": "m_cardNode5",
+                "x": 220,
+                "y": 50
+              }
+            },
+            {
+              "type": "atlas-sprite",
+              "id": "706826c5-a971-4440-819b-cd5e481ae2d7",
+              "asset": "1",
+              "info": {
+                "editorName": "result_label",
+                "editorField": true,
+                "x": 80,
+                "y": 140
+              }
+            },
+            {
+              "type": "atlas-sprite",
+              "id": "b72d2ed3-61ef-4d9f-afe6-00cbe1869afc",
+              "asset": "2",
+              "info": {
+                "editorName": "scoreTextNode",
+                "editorField": true,
+                "x": 60,
+                "y": 9,
+                "scale.x": 2.093750000022779,
+                "scale.y": 1.2499999988969968,
+                "data": "{\r\n  text: \"\",\r\n  font: Thunderjack.DesignData.FONT_THE_BOLD_FONT,\r\n  align: \"center\"\r\n}"
+              }
+            }
+          ]
+        }
+      }]
+    }
+  },
+  "type": "GROUP",
+  "asset-table": {
+    "0": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preload",
+      "asset": "cards",
+      "sprite": "card_as"
+    },
+    "1": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preload",
+      "asset": "ui1",
+      "sprite": "result_label_win"
+    },
+    "2": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preload",
+      "asset": "ui1",
+      "sprite": "node"
+    }
+  },
+  "prefab-table": {}
+}

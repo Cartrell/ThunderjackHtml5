@@ -1,0 +1,518 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "GamePlay",
+    "sceneWidth": 1024,
+    "sceneHeight": 768,
+    "generateOnSave": true,
+    "enableStepping": true,
+    "stepWidth": 10,
+    "stepHeight": 10,
+    "lang": "JAVA_SCRIPT",
+    "baseClass": "Phaser.State",
+    "backgroundColor": [
+      0,
+      128,
+      0
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true,
+    "create_after": "\r\n// user code\r\n\r\nthis._init();"
+  },
+  "stateSettings": {
+    "stageBackgroundColor": [
+      0,
+      0,
+      0
+    ],
+    "autoLoad": false,
+    "preloadSpriteId": "",
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "8e72877c-18b8-4fba-a05a-42679c968516",
+    "info": {
+      "editorName": "GamePlay",
+      "setAll": [],
+      "children": [
+        {
+          "type": "atlas-sprite",
+          "id": "6dbee4ee-de52-48e2-88d0-1cad052eee8e",
+          "asset": "0",
+          "info": {
+            "editorName": "background",
+            "editorPick": false,
+            "editorField": true
+          }
+        },
+        {
+          "type": "prefab",
+          "prefab": "0",
+          "id": "78452abb-75f1-441d-9d7c-dd4385dd3e15",
+          "info": {
+            "editorName": "discard_deck",
+            "editorField": true,
+            "x": 250,
+            "y": 30
+          }
+        },
+        {
+          "type": "prefab",
+          "prefab": "0",
+          "id": "6bc3a82a-fe0f-48fd-b599-47829dd10756",
+          "info": {
+            "editorName": "deck",
+            "editorField": true,
+            "x": 850,
+            "y": 30
+          }
+        },
+        {
+          "type": "group",
+          "id": "72596326-da17-4d01-bc30-d6dc85b0ceba",
+          "info": {
+            "editorName": "cards_container",
+            "editorPick": false,
+            "editorField": true,
+            "setAll": [],
+            "children": []
+          }
+        },
+        {
+          "type": "prefab",
+          "prefab": "1",
+          "id": "73a32b2b-cf90-41fb-a3d3-52691139ad42",
+          "info": {
+            "editorName": "dealer",
+            "editorField": true,
+            "x": 350,
+            "y": 0
+          }
+        },
+        {
+          "type": "prefab",
+          "prefab": "2",
+          "id": "edd580fe-58b9-490d-af58-e64dd4c263b8",
+          "info": {
+            "editorName": "top_right_player",
+            "editorField": true,
+            "x": 670,
+            "y": 200
+          }
+        },
+        {
+          "type": "prefab",
+          "prefab": "2",
+          "id": "19aae51f-848b-4151-81a7-791880709e77",
+          "info": {
+            "editorName": "top_middle_player",
+            "editorField": true,
+            "x": 340,
+            "y": 200
+          }
+        },
+        {
+          "type": "prefab",
+          "prefab": "2",
+          "id": "a42d6e00-4218-401e-8a98-5c5ccd930d41",
+          "info": {
+            "editorName": "top_left_player",
+            "editorField": true,
+            "x": 10,
+            "y": 200
+          }
+        },
+        {
+          "type": "prefab",
+          "prefab": "2",
+          "id": "7ed2f05e-dbbd-4ead-89eb-2bbeee60c3b1",
+          "info": {
+            "editorName": "bottom_left_player",
+            "editorField": true,
+            "x": 10,
+            "y": 420
+          }
+        },
+        {
+          "type": "prefab",
+          "prefab": "2",
+          "id": "d82226ba-9a7d-45cc-87c3-7d99a573789e",
+          "info": {
+            "editorName": "bottom_middle_player",
+            "editorField": true,
+            "x": 340,
+            "y": 420
+          }
+        },
+        {
+          "type": "prefab",
+          "prefab": "2",
+          "id": "8f481a0b-c170-4ecd-b9df-402a449ecb27",
+          "info": {
+            "editorName": "bottom_right_player",
+            "editorField": true,
+            "x": 670,
+            "y": 420
+          }
+        },
+        {
+          "type": "prefab",
+          "prefab": "3",
+          "id": "19fd2658-5e9d-46cb-88f1-5c87b9ed4f24",
+          "info": {
+            "editorName": "bet_chips",
+            "editorPick": false,
+            "editorShow": false,
+            "x": 360,
+            "y": 680
+          }
+        },
+        {
+          "type": "group",
+          "id": "f9eb881d-f957-4f68-8300-66fb6f291fd2",
+          "info": {
+            "editorName": "hand_buttons",
+            "editorPick": false,
+            "editorField": true,
+            "editorShow": false,
+            "setAll": [],
+            "children": [
+              {
+                "type": "prefab",
+                "prefab": "4",
+                "id": "50342937-3f9f-4570-aeb3-4265f42165ac",
+                "info": {
+                  "editorName": "hand_button_1",
+                  "editorField": true,
+                  "x": 80,
+                  "y": 690
+                }
+              },
+              {
+                "type": "prefab",
+                "prefab": "5",
+                "id": "c2db1169-0aef-4f23-82e2-93968cafba2a",
+                "info": {
+                  "editorName": "hand_button_2",
+                  "editorField": true,
+                  "x": 160,
+                  "y": 690
+                }
+              },
+              {
+                "type": "prefab",
+                "prefab": "6",
+                "id": "492d2518-aa63-4387-836a-32b77d2a5ee7",
+                "info": {
+                  "editorName": "hand_button_3",
+                  "editorField": true,
+                  "x": 240,
+                  "y": 690
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "group",
+          "id": "4d2d7390-fad9-4a8e-8ebf-af99dac7e4d9",
+          "info": {
+            "editorName": "bet_buttons",
+            "editorField": true,
+            "setAll": [],
+            "children": [
+              {
+                "type": "button",
+                "id": "a62b7021-ce7b-4a94-a844-15e50611f9b6",
+                "asset": "1",
+                "info": {
+                  "editorName": "bet_button",
+                  "editorField": true,
+                  "x": 680,
+                  "y": 700,
+                  "scale.x": 0.75,
+                  "scale.y": 0.75,
+                  "callback": "this._onBetButtonPressed",
+                  "overFrame": "game_button_bet_norm",
+                  "downFrame": "game_button_bet_down",
+                  "upFrame": "game_button_bet_norm"
+                }
+              },
+              {
+                "type": "button",
+                "id": "69be3c02-6cc4-4639-9ca6-655726cc778d",
+                "asset": "2",
+                "info": {
+                  "editorName": "clear_button",
+                  "editorField": true,
+                  "x": 850,
+                  "y": 700,
+                  "scale.x": 0.75,
+                  "scale.y": 0.75,
+                  "callback": "this._onClearButtonPressed",
+                  "overFrame": "game_button_clear_norm",
+                  "downFrame": "game_button_clear_down",
+                  "upFrame": "game_button_clear_norm"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "group",
+          "id": "7e99553c-3ecf-4659-92a3-e4f0f3fc3d87",
+          "info": {
+            "editorName": "game_buttons",
+            "editorPick": false,
+            "editorField": true,
+            "editorShow": false,
+            "scale.x": 0.9,
+            "scale.y": 0.9,
+            "setAll": [],
+            "children": [
+              {
+                "type": "button",
+                "id": "babd5250-9327-46bb-8b87-4517cd7d004e",
+                "asset": "3",
+                "info": {
+                  "editorName": "game_button_surrender",
+                  "editorField": true,
+                  "x": 20,
+                  "y": 780,
+                  "callback": "this._onSurrenderButtonPressed",
+                  "overFrame": "game_button_surrender_norm",
+                  "downFrame": "game_button_surrender_down",
+                  "upFrame": "game_button_surrender_norm"
+                }
+              },
+              {
+                "type": "button",
+                "id": "5f37acaa-c2b1-4d8e-a7fc-2e8c29c20e41",
+                "asset": "4",
+                "info": {
+                  "editorName": "game_button_double",
+                  "editorField": true,
+                  "x": 240,
+                  "y": 780,
+                  "callback": "this._onDoubleButtonPressed",
+                  "overFrame": "game_button_double_norm",
+                  "downFrame": "game_button_double_down",
+                  "upFrame": "game_button_double_norm"
+                }
+              },
+              {
+                "type": "button",
+                "id": "a7c833f6-05bc-4a3d-a0f5-697ae5141f3a",
+                "asset": "5",
+                "info": {
+                  "editorName": "game_button_hit",
+                  "editorField": true,
+                  "x": 460,
+                  "y": 780,
+                  "callback": "this._onHitButtonPressed",
+                  "overFrame": "game_button_hit_norm",
+                  "downFrame": "game_button_hit_down",
+                  "upFrame": "game_button_hit_norm"
+                }
+              },
+              {
+                "type": "button",
+                "id": "24164a53-d5a4-4694-8a3d-1c179ec24d45",
+                "asset": "6",
+                "info": {
+                  "editorName": "game_button_stand",
+                  "editorField": true,
+                  "x": 680,
+                  "y": 780,
+                  "callback": "this._onStandButtonPressed",
+                  "overFrame": "game_button_stand_norm",
+                  "downFrame": "game_button_stand_down",
+                  "upFrame": "game_button_stand_norm"
+                }
+              },
+              {
+                "type": "button",
+                "id": "66500f64-5b97-44cd-a8ab-5dec453f1744",
+                "asset": "7",
+                "info": {
+                  "editorName": "game_button_split",
+                  "editorField": true,
+                  "x": 900,
+                  "y": 780,
+                  "callback": "this._onSplitButtonPressed",
+                  "overFrame": "game_button_split_norm",
+                  "downFrame": "game_button_split_down",
+                  "upFrame": "game_button_split_norm"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "atlas-sprite",
+          "id": "7c7a2987-d216-4ae0-a1da-d7bc7ac3b19f",
+          "asset": "8",
+          "info": {
+            "editorName": "youWonTextNode",
+            "editorField": true,
+            "x": 10,
+            "y": 90,
+            "scale.x": 6.5,
+            "scale.y": 0.8,
+            "data": "{\r\n  text: \"\",\r\n  font: Thunderjack.DesignData.FONT_THE_BOLD_FONT_WIN\r\n}"
+          }
+        },
+        {
+          "type": "atlas-sprite",
+          "id": "1656b560-1396-45c0-b4d8-a62ae578caf4",
+          "asset": "8",
+          "info": {
+            "editorName": "betTextNode",
+            "editorField": true,
+            "x": 10,
+            "y": 50,
+            "scale.x": 6.5,
+            "scale.y": 0.8,
+            "data": "{\r\n  text: \"\",\r\n  font: Thunderjack.DesignData.FONT_THE_BOLD_FONT\r\n}"
+          }
+        },
+        {
+          "type": "atlas-sprite",
+          "id": "00755569-7a12-43e9-babc-6b62f1796ef6",
+          "asset": "8",
+          "info": {
+            "editorName": "creditsTextNode",
+            "editorField": true,
+            "x": 10,
+            "y": 10,
+            "scale.x": 6.5,
+            "scale.y": 0.8,
+            "data": "{\r\n  text: \"\",\r\n  font: Thunderjack.DesignData.FONT_THE_BOLD_FONT\r\n}"
+          }
+        },
+        {
+          "type": "group",
+          "id": "79e35ddd-2bf9-462f-ad61-b17cebb57737",
+          "info": {
+            "editorName": "thunderbolts",
+            "editorField": true,
+            "setAll": [],
+            "children": [
+              {
+                "type": "atlas-sprite",
+                "id": "0de070f1-a433-4ab6-83cd-e0191fd5dd9f",
+                "asset": "9",
+                "info": {
+                  "editorName": "thunderboltRight",
+                  "editorField": true,
+                  "editorShow": false,
+                  "x": 760
+                }
+              },
+              {
+                "type": "atlas-sprite",
+                "id": "f28ccba6-4c4e-4a80-877b-9f89327bdccb",
+                "asset": "9",
+                "info": {
+                  "editorName": "thunderboltMiddle",
+                  "editorField": true,
+                  "editorShow": false,
+                  "x": 430
+                }
+              },
+              {
+                "type": "atlas-sprite",
+                "id": "b05de292-02e8-45be-9af4-88e08a9b753c",
+                "asset": "9",
+                "info": {
+                  "editorName": "thunderboltLeft",
+                  "editorField": true,
+                  "editorShow": false,
+                  "x": 100
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "type": "STATE",
+  "asset-table": {
+    "0": {
+      "file": "WebContent/assets/pack.json",
+      "section": "intro",
+      "asset": "intro1",
+      "sprite": "background"
+    },
+    "1": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preload",
+      "asset": "ui1",
+      "sprite": "game_button_bet_norm"
+    },
+    "2": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preload",
+      "asset": "ui1",
+      "sprite": "game_button_clear_norm"
+    },
+    "3": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preload",
+      "asset": "ui1",
+      "sprite": "game_button_surrender_norm"
+    },
+    "4": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preload",
+      "asset": "ui1",
+      "sprite": "game_button_double_norm"
+    },
+    "5": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preload",
+      "asset": "ui1",
+      "sprite": "game_button_hit_norm"
+    },
+    "6": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preload",
+      "asset": "ui1",
+      "sprite": "game_button_stand_norm"
+    },
+    "7": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preload",
+      "asset": "ui1",
+      "sprite": "game_button_split_norm"
+    },
+    "8": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preload",
+      "asset": "ui1",
+      "sprite": "node"
+    },
+    "9": {
+      "file": "WebContent/assets/pack.json",
+      "section": "preload",
+      "asset": "ui1",
+      "sprite": "thunderbolt"
+    }
+  },
+  "prefab-table": {
+    "0": "WebContent/assets/canvas/deck_prefab.canvas",
+    "1": "WebContent/assets/canvas/dealer_prefab.canvas",
+    "2": "WebContent/assets/canvas/player_prefab.canvas",
+    "3": "WebContent/assets/canvas/bet_chips_prefab.canvas",
+    "4": "WebContent/assets/canvas/hand_button_1_prefab.canvas",
+    "5": "WebContent/assets/canvas/hand_button_2_prefab.canvas",
+    "6": "WebContent/assets/canvas/hand_button_3_prefab.canvas"
+  }
+}

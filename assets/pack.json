@@ -1,0 +1,284 @@
+{
+  "preload": [
+    {
+      "type": "atlas",
+      "key": "cards",
+      "textureURL": "assets/graphics/cards.png",
+      "atlasURL": "assets/graphics/cards.json",
+      "format": "TEXTURE_ATLAS_JSON_HASH"
+    },
+    {
+      "type": "script",
+      "key": "Preload",
+      "url": "assets/canvas/Preload.js"
+    },
+    {
+      "type": "audio",
+      "key": "snd_double_down",
+      "urls": ["assets/audio/snd_double_down.mp3"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "snd_thunderjack",
+      "urls": ["assets/audio/snd_thunderjack.mp3"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "snd_win06_12",
+      "urls": ["assets/audio/snd_win06_12.mp3"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "snd_win08_12",
+      "urls": ["assets/audio/snd_win08_12.mp3"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "snd_hit",
+      "urls": ["assets/audio/snd_hit.mp3"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "snd_button_click",
+      "urls": ["assets/audio/snd_button_click.mp3"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "snd_win12_12",
+      "urls": ["assets/audio/snd_win12_12.mp3"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "snd_win10_12",
+      "urls": ["assets/audio/snd_win10_12.mp3"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "snd_bust",
+      "urls": ["assets/audio/snd_bust.mp3"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "snd_win02_12",
+      "urls": ["assets/audio/snd_win02_12.mp3"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "snd_auto_win3",
+      "urls": ["assets/audio/snd_auto_win3.mp3"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "snd_auto_win4",
+      "urls": ["assets/audio/snd_auto_win4.mp3"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "snd_win04_12",
+      "urls": ["assets/audio/snd_win04_12.mp3"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "snd_auto_win1",
+      "urls": ["assets/audio/snd_auto_win1.mp3"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "snd_auto_win2",
+      "urls": ["assets/audio/snd_auto_win2.mp3"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "snd_win07_12",
+      "urls": ["assets/audio/snd_win07_12.mp3"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "snd_win09_12",
+      "urls": ["assets/audio/snd_win09_12.mp3"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "snd_bet_remove",
+      "urls": ["assets/audio/snd_bet_remove.mp3"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "snd_split1",
+      "urls": ["assets/audio/snd_split1.mp3"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "snd_split2",
+      "urls": ["assets/audio/snd_split2.mp3"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "snd_dealer_bust2",
+      "urls": ["assets/audio/snd_dealer_bust2.mp3"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "snd_surrender1",
+      "urls": ["assets/audio/snd_surrender1.mp3"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "snd_win11_12",
+      "urls": ["assets/audio/snd_win11_12.mp3"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "snd_bet_add",
+      "urls": ["assets/audio/snd_bet_add.mp3"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "snd_dealer_bust1",
+      "urls": ["assets/audio/snd_dealer_bust1.mp3"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "snd_reset_settings",
+      "urls": ["assets/audio/snd_reset_settings.mp3"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "snd_surrender2",
+      "urls": ["assets/audio/snd_surrender2.mp3"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "snd_card_shuffle0",
+      "urls": ["assets/audio/snd_card_shuffle0.mp3"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "snd_card_shuffle1",
+      "urls": ["assets/audio/snd_card_shuffle1.mp3"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "snd_card_deal2",
+      "urls": ["assets/audio/snd_card_deal2.mp3"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "snd_card_deal1",
+      "urls": ["assets/audio/snd_card_deal1.mp3"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "snd_card_deal0",
+      "urls": ["assets/audio/snd_card_deal0.mp3"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "snd_stand",
+      "urls": ["assets/audio/snd_stand.mp3"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "snd_dealer_bj",
+      "urls": ["assets/audio/snd_dealer_bj.mp3"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "snd_win05_12",
+      "urls": ["assets/audio/snd_win05_12.mp3"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "snd_win03_12",
+      "urls": ["assets/audio/snd_win03_12.mp3"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "snd_win01_12",
+      "urls": ["assets/audio/snd_win01_12.mp3"],
+      "autoDecode": true
+    },
+    {
+      "type": "xml",
+      "key": "theboldfont",
+      "url": "assets/graphics/ui/fonts/theboldfont.fnt.xml",
+      "overwrite": false
+    },
+    {
+      "type": "atlas",
+      "key": "ui1",
+      "textureURL": "assets/graphics/ui1.png",
+      "atlasURL": "assets/graphics/ui1.json",
+      "format": "TEXTURE_ATLAS_JSON_HASH"
+    },
+    {
+      "type": "xml",
+      "key": "theboldfont_win",
+      "url": "assets/graphics/ui/fonts/theboldfont_win.fnt.xml",
+      "overwrite": false
+    }
+  ],
+  "boot": [
+    {
+      "type": "image",
+      "key": "preloader_bar",
+      "url": "assets/graphics/ui/preloader_bar.png",
+      "overwrite": false
+    },
+    {
+      "type": "script",
+      "key": "Boot",
+      "url": "assets/canvas/Boot.js"
+    }
+  ],
+  "intro": [{
+    "type": "atlas",
+    "key": "intro1",
+    "textureURL": "assets/graphics/intro.png",
+    "atlasURL": "assets/graphics/intro.json",
+    "format": "TEXTURE_ATLAS_JSON_HASH"
+  }],
+  "meta": {
+    "generated": "1549762375616",
+    "app": "Phaser Editor",
+    "url": "http://phasereditor.boniatillo.com",
+    "version": "1.0",
+    "copyright": "Arian Fornaris (c) 2015,2016"
+  }
+}

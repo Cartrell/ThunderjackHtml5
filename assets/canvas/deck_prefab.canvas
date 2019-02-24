@@ -1,0 +1,118 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "deck_prefab",
+    "sceneWidth": 640,
+    "sceneHeight": 360,
+    "generateOnSave": true,
+    "enableStepping": false,
+    "lang": "JAVA_SCRIPT",
+    "baseClass": "Phaser.Group",
+    "backgroundColor": [
+      180,
+      180,
+      180
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true
+  },
+  "stateSettings": {
+    "stageBackgroundColor": [
+      0,
+      0,
+      0
+    ],
+    "autoLoad": true,
+    "preloadSpriteId": "",
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "b4a33c99-4572-4ab3-b2a0-cb44407d1fc9",
+    "info": {
+      "editorName": "root",
+      "setAll": [],
+      "children": [{
+        "type": "group",
+        "id": "1410bf0b-5edd-41d9-a8af-f972464e9e83",
+        "info": {
+          "editorName": "group",
+          "setAll": [],
+          "children": [
+            {
+              "type": "atlas-sprite",
+              "id": "47efae88-3c90-4a26-9415-6860c41cdfc8",
+              "asset": "0",
+              "info": {
+                "editorName": "deckCard0",
+                "x": 20
+              }
+            },
+            {
+              "type": "atlas-sprite",
+              "id": "030e1c72-38bb-4d9e-adde-016a2f7d75eb",
+              "asset": "0",
+              "info": {
+                "editorName": "deckCard1",
+                "x": 16,
+                "y": 4
+              }
+            },
+            {
+              "type": "atlas-sprite",
+              "id": "60c8cea4-c54d-42bb-993a-8e694bfdaccf",
+              "asset": "0",
+              "info": {
+                "editorName": "deckCard2",
+                "x": 12,
+                "y": 8
+              }
+            },
+            {
+              "type": "atlas-sprite",
+              "id": "b43cc872-bb4b-43ae-b818-79daca0f1609",
+              "asset": "0",
+              "info": {
+                "editorName": "deckCard3",
+                "x": 8,
+                "y": 12
+              }
+            },
+            {
+              "type": "atlas-sprite",
+              "id": "12b0b14c-905a-458d-a41d-1a48783b0764",
+              "asset": "0",
+              "info": {
+                "editorName": "deckCard4",
+                "x": 4,
+                "y": 16
+              }
+            },
+            {
+              "type": "atlas-sprite",
+              "id": "03edcd9a-8518-42ca-9c42-989ec1a0eaec",
+              "asset": "0",
+              "info": {
+                "editorName": "deckCard5",
+                "y": 20
+              }
+            }
+          ]
+        }
+      }]
+    }
+  },
+  "type": "GROUP",
+  "asset-table": {"0": {
+    "file": "WebContent/assets/pack.json",
+    "section": "preload",
+    "asset": "cards",
+    "sprite": "card_back_red"
+  }},
+  "prefab-table": {}
+}
