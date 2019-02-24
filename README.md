@@ -1,7 +1,8 @@
 ﻿# Thunderjack!
 #### Thunderjack! is a game that is very similar to Blackjack. It was made as a side project to learn Phaser and to establish a niche in coding card games.
 
-![Main Thunderjack! display](https://www.drivehq.com/file/df.aspx/publish/Ziro/PublicFolder/images/thunderjack-git-readme.png)
+![Main Thunderjack! display](https://www.drivehq.com/file/df.aspx/publish/Ziro/PublicFolder/images/thunderjack-git-readme.png)<br/>
+<br/>
 You can play the game [here](https://gameplaycoder.com/wp-content/uploads/2019/02/pfi_thunderjack.png).
 
 ### Dev Tools
