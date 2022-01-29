@@ -3,7 +3,7 @@
 
 ![Main Thunderjack! display](https://www.drivehq.com/file/df.aspx/publish/Ziro/PublicFolder/images/thunderjack-git-readme.png)<br/>
 <br/>
-You can play the game [here](https://gameplaycoder.com/wp-content/uploads/2019/02/pfi_thunderjack.png).
+You can play the game [here](https://gameplaycoder.com/games/thunderjack/).
 
 ### Dev Tools
 * [Phaser CE](https://github.com/photonstorm/phaser-ce) v2.11.1 or later
